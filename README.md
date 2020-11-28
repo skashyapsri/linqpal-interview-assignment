@@ -16,6 +16,6 @@ The goal of this project is as follows:
   * Store the rest of info as plain text in the DB
   
 ## AWS Architecture
-![alt text](https://github.com/skashyapsri/linqpal-assignment/blob/master/aws_architecture.png?raw=true)
+![alt text](https://github.com/skashyapsri/linqpal-interview-assignment/blob/master/aws_architecture.png?raw=true)
 
 
