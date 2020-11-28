@@ -15,6 +15,8 @@ The goal of this project is as follows:
   * Encrypt SSN and store it in the DB
   * Store the rest of info as plain text in the DB
   
+## API Documentation
+https://documenter.getpostman.com/view/4430727/TVmJgyS6
 ## AWS Architecture
 ![alt text](https://github.com/skashyapsri/linqpal-interview-assignment/blob/master/aws_architecture.png?raw=true)
 
