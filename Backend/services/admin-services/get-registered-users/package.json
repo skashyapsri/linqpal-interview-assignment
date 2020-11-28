@@ -1,0 +1,18 @@
+{
+  "name": "linqpal-get-registered-user",
+  "version": "1.0.0",
+  "description": "Users Service",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "./deploy",
+    "deploy-test": "./deploy-test"
+  },
+  "author": "Srikrishna S Kashyap",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "jwt-decode": "^2.2.0",
+    "jwt-encode": "^1.0.1",
+    "mongoose": "^5.5.6"
+  }
+}

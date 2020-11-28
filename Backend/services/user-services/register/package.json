@@ -1,0 +1,17 @@
+{
+  "name": "linqpal-user-register-service",
+  "version": "1.0.0",
+  "description": "Users Service",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "./deploy"
+  },
+  "author": "Srikrishna S Kashyap",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "google-libphonenumber": "^3.2.15",
+    "jwt-decode": "^2.2.0",
+    "mongoose": "^5.5.6"
+  }
+}

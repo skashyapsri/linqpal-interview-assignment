@@ -1,0 +1,27 @@
+service: linqpal-get-registered-users
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  stage: dev
+  region: ap-south-1
+  endpointType: REGIONAL
+
+functions:
+  profile:
+    handler: getUsers.handler
+    description: Linqpal Get Users API
+    environment:
+      DATABASE: mongodb+srv://weddingvia:FSWOJHYUwFGZDFhB@cluster0-hlqo9.mongodb.net/linqpal?retryWrites=true&w=majority
+      SECRET: a0b5f1648e69edf2ced5efce0cb9eef7
+    events:
+      - http: 
+          path: /
+          method: POST
+          cors: true
+          integration: lambda
+          authorizer:
+            name: authorizer
+            arn: arn:aws:cognito-idp:ap-south-1:288142913328:userpool/ap-south-1_6WdK18rGs
+            claims:
+              - phone_number

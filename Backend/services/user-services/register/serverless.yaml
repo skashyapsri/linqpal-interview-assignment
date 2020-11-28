@@ -1,0 +1,20 @@
+service: linqpal-user-register-service
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  stage: prod
+  region: ap-south-1
+  endpointType: REGIONAL
+
+functions:
+  register:
+    handler: register.handler
+    description: Linqpal User Register Service
+    environment:
+      DATABASE: mongodb+srv://weddingvia:FSWOJHYUwFGZDFhB@cluster0-hlqo9.mongodb.net/linqpal?retryWrites=true&w=majority
+      SECRET: a0b5f1648e69edf2ced5efce0cb9eef7
+    events:
+      - http: 
+          path: /
+          method: POST

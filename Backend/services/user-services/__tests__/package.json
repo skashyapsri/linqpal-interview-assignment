@@ -1,0 +1,19 @@
+{
+  "name": "User-services-tests",
+  "version": "1.0.0",
+  "description": "Linqpal Assignment User microservice testing",
+  "main": "register.test.js",
+  "scripts": {
+    "test": "jest  --env=node"
+  },
+  "keywords": [],
+  "author": "Srikrishna S Kashyap",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.21.0",
+    "jwt-encode": "^1.0.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

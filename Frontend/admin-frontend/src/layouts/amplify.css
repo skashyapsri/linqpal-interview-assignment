@@ -1,0 +1,20 @@
+body {
+    background: #e6f3f9;
+    font-family: 'Gilroy', sans-serif, arial, verdana;
+}
+:root {
+    --themeColor: #2f4859;
+    --hoverColor: #2f4859; 
+    --amplify-white: #fff;
+    --amplify-primary-contrast: white;
+    --amplify-primary-color: #2f4859;
+    --amplify-primary-tint: #2f4859; 
+    --amplify-primary-shade: #2f4859;
+    --amplify-secondary-color: #2f4859;
+    --amplify-secondary-tint: #2f4859;
+    --amplify-font-family: 'Gilroy', sans-serif, arial, verdana;
+}
+
+.toast > span {
+    color: #2f4859;
+}
